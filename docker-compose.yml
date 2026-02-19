@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  auto_bot:
+    build: .
+    container_name: auto_polska_bot
+    restart: always
+    volumes:
+      - .:/app
